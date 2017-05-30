@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/venicegeo/pzsvc-exec/pzsvc"
+	"github.com/venicegeo/dg-pzsvc-exec/pzsvc"
 )
 
 // ParseConfigAndRegister parses the config file on starting up, manages

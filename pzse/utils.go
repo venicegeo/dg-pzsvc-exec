@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/venicegeo/pzsvc-exec/pzsvc"
+	"github.com/venicegeo/dg-pzsvc-exec/pzsvc"
 )
 
 func handleFList(s pzsvc.Session, fList, nameList []string, lFunc rangeFunc, fType, action string, output *OutStruct, fileRec map[string]string) error {
@@ -183,7 +183,7 @@ func PrintHelp(w http.ResponseWriter) {
 	fmt.Fprintln(w, `- '/': entry point.  Displays base command if any, and suggests other endpoints.`)
 	fmt.Fprintln(w, `- '/execute': The meat of the program.  Downloads files, executes on them, and uploads the results.`)
 	fmt.Fprintln(w, `See the Service Request Format section of the Readme for interface details.`)
-	fmt.Fprintln(w, `(Readme available at https://github.com/venicegeo/pzsvc-exec).`)
+	fmt.Fprintln(w, `(Readme available at https://github.com/venicegeo/dg-pzsvc-exec).`)
 	fmt.Fprintln(w, `- '/description': When enabled, provides a description of this particular pzsvc-exec instance.`)
 	fmt.Fprintln(w, `- '/documentation': When enabled, provides a url containing documentation for this particular pzsvc-exec instance.`)
 	fmt.Fprintln(w, `- '/attributes': When enabled, provides a list of key/value attributes for this pzsvc-exec instance.`)

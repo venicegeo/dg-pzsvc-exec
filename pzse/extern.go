@@ -17,7 +17,7 @@ package pzse
 import (
 	"encoding/json"
 
-	"github.com/venicegeo/pzsvc-exec/pzsvc"
+	"github.com/venicegeo/dg-pzsvc-exec/pzsvc"
 )
 
 // CallPzsvcExec is a function designed to simplify calls to pzsvc-exec.

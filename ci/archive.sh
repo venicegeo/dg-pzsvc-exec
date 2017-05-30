@@ -18,11 +18,11 @@ go version
 go get -u github.com/alecthomas/gometalinter
 gometalinter --install
 
-go get -v github.com/venicegeo/pzsvc-exec/...
+go get -v github.com/venicegeo/dg-pzsvc-exec/...
 
 # for pzse library: unit test w/ code coverage, then lint
-cd $GOPATH/src/github.com/venicegeo/pzsvc-exec/pzse
-go test -v -coverprofile=$root/pzse.cov github.com/venicegeo/pzsvc-exec/pzse
+cd $GOPATH/src/github.com/venicegeo/dg-pzsvc-exec/pzse
+go test -v -coverprofile=$root/pzse.cov github.com/venicegeo/dg-pzsvc-exec/pzse
 
 gometalinter \
 --deadline=60s \
@@ -42,8 +42,8 @@ wc -l $root/pzse-lint.txt
 
 
 # for pzsvc library: unit test w/ code coverage, then lint
-cd $GOPATH/src/github.com/venicegeo/pzsvc-exec/pzsvc
-go test -v -coverprofile=$root/pzsvc.cov github.com/venicegeo/pzsvc-exec/pzsvc
+cd $GOPATH/src/github.com/venicegeo/dg-pzsvc-exec/pzsvc
+go test -v -coverprofile=$root/pzsvc.cov github.com/venicegeo/dg-pzsvc-exec/pzsvc
 
 gometalinter \
 --deadline=60s \
@@ -62,7 +62,7 @@ gometalinter \
 wc -l $root/pzsvc-lint.txt
 
 # for taskworker, install appropriately
-cd $GOPATH/src/github.com/venicegeo/pzsvc-exec/pzsvc-taskworker
+cd $GOPATH/src/github.com/venicegeo/dg-pzsvc-exec/pzsvc-taskworker
 go install .
 
 cd $root

@@ -17,7 +17,7 @@ package pzse
 import (
 	"testing"
 
-	"github.com/venicegeo/pzsvc-exec/pzsvc"
+	"github.com/venicegeo/dg-pzsvc-exec/pzsvc"
 )
 
 func TestCallPzsvcExec(t *testing.T) {

@@ -18,7 +18,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/venicegeo/pzsvc-exec/pzsvc"
+	"github.com/venicegeo/dg-pzsvc-exec/pzsvc"
 )
 
 // PrintHelp prints out a basic helpfile to make things easier on direct users

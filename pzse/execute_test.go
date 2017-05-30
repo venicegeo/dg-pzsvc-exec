@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/venicegeo/pzsvc-exec/pzsvc"
+	"github.com/venicegeo/dg-pzsvc-exec/pzsvc"
 )
 
 func TestParseConfiguration(t *testing.T) {

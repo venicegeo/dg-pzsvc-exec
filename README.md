@@ -50,17 +50,17 @@ To clone the pzsvc-exec repository, do the following commands
 
 2. `$ cd $GOPATH/src/github.com/venicegeo`
 
-3. `$ git clone git@github.com:venicegeo/pzsvc-exec.git`
+3. `$ git clone git@github.com:venicegeo/dg-pzsvc-exec.git`
 
 ## Installing and Running
 
 Before installing pzsvc-exec, make sure you have Go installed on you machine, and the environment variables set.
 
 To __*install*__ pzsvc-exec, do the following:
-	`$ go install github.com/venicegeo/pzsvc-exec/`
+	`$ go install github.com/venicegeo/dg-pzsvc-exec/`
 
 Alternate install:
-	navigate to `GOPATH/src/github.com/venicegeo/pzsvc-exec`
+	navigate to `GOPATH/src/github.com/venicegeo/dg-pzsvc-exec`
 	then call `$ go install .`
 
 To __*run*__ pzsvc-exec, do the following:
